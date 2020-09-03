@@ -19,9 +19,9 @@
                 <span class="icon-bar"></span>
             </button>
             <a class="navbar-brand" href="{{ url_for('index') }}">
-                <img src="{{ url_for('static', filename='images/platzi.png') }}"
+                <img src="{{ url_for('static', filename='images/logo_a.png') }}"
                      style="max-width: 48px"
-                     alt="Platzi logo">
+                     alt="Wilmer Diaz Logo">
             </a>
         </div>
 
@@ -30,8 +30,8 @@
                 {% if current_user.is_authenticated %}
                     <li><a href="{{ url_for('auth.logout') }}">Logout</a></li>
                 {% endif %}
-                <li><a href="{{ url_for('index') }}">Inicio</a></li>
-                <li><a href="https://platzi.com" target="_blank">Platzi</a></li>
+                <li><a href="https://www.facebook.com/wihomsoftware/">Wihom</a></li>
+                <li><a href="https://wilmerdiaz.com" target="_blank">Wilmer Diaz</a></li>
             </ul>
         </div>
     </div>
